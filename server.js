@@ -7,7 +7,7 @@ const io = require('socket.io')(3001, {
     }
 });
 
-mongoose.connect('mongodb://localhost/plan-docs').catch((e)=>{
+mongoose.connect('mongodb+srv://gavinha17:gavinha17@cluster0.w7sjeud.mongodb.net/?retryWrites=true&w=majority').catch((e)=>{
     console.log(e);
 });
 //Connection with server;
